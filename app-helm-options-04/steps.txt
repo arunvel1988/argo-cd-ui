@@ -1,3 +1,7 @@
 #################################################################
 
 
+kubectl apply -f application.yaml
+
+kubectl get application -n argocd
+
