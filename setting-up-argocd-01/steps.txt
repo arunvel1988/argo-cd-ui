@@ -1,0 +1,10 @@
+#########################################################################
+
+
+kubectl create namespace argocd
+kubectl apply -n argocd -f /tmp/install.yaml
+
+kubectl get pods -n argocd
+
+#########################################################################
+
