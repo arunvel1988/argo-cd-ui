@@ -6,6 +6,10 @@ argocd app create app-2 --repo https://github.com/arunvel1988/argocd-example-app
 
 argocd app list --grpc-web
 
+argocd app sync app-2 --grpc-web
+
+argocd app list --grpc-web
+
 
 
 #######################################################################
