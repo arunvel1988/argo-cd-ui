@@ -8,3 +8,6 @@ kubectl get application -n argocd
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo''
 
 
+kubectl apply -f application-recurse.yaml
+
+######################################################
