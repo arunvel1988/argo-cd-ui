@@ -1,1 +1,8 @@
 #####################################################################
+
+kubectl apply -f project.yaml
+
+kubectl get appproject -n argocd
+
+argocd proj role create-token project-with-role ci-role --grpc-web
+
