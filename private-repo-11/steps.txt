@@ -12,7 +12,7 @@ stringData:
   type: git
   url: https://github.com/arunvel1988/argo-cd-private-repo-demo
   password: xyz
-  username: arunvwel1988
+  username: arunvel1988
 
 ###################################################################################
 
