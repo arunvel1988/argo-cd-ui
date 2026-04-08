@@ -1,0 +1,26 @@
+###################################################################################
+
+# secret.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: 
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  type: git
+  url: 
+  password: 
+  username:
+
+###################################################################################
+
+kubectl apply -f secret.yaml
+
+###################################################################################
+kubectl get secret private-repo-https -n argocd
+
+
+###################################################################################
+  
