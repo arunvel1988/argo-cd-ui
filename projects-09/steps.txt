@@ -16,4 +16,13 @@ kubectl get application -n argocd
 kubectl describe application guestbook-dev-project -n argocd
 
 
+kubectl apply -f application-ns-01.yaml
+
+kubectl get application -n argocd
+
+############################################################################################################
+
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
+
+
 
