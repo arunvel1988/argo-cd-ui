@@ -1,3 +1,19 @@
 ############################################################################################################
 
 kubectl apply -f project.yaml
+
+kubectl get project -n argocd
+
+############################################################################################################
+
+kubectl apply -f application.yaml
+
+kubectl get application -n argocd
+
+
+############################################################################################################
+
+kubectl describe application guestbook-dev-project -n argocd
+
+
+
