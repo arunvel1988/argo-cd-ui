@@ -1,1 +1,7 @@
 ###################################################
+
+kubectl apply -f repo.yaml
+
+kubectl get secret private-repo-ssh -n argocd
+
+###################################################
